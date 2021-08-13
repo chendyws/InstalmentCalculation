@@ -1,0 +1,41 @@
+body{
+	background: #ffdde1; 
+	font-family: sans-serif;
+}
+.perhitungan{
+	width: 335px; 
+	background: #ee9ca7; 
+	margin: 100px auto;
+	padding: 20px 20px 20px 20px; 
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px 0px ##ee9ca7;
+} 
+.bil{
+	width: 300px;
+	margin: 5px;
+	border: none;
+	font-size: 16pt;
+	border-radius: 5px;
+	padding: 10px;	
+}
+.tombol{
+	background: #ec2F4B;
+	border-top: none; border-right: none; border-left: none; 
+	border-bottom:4px solid #ffdde1;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #eee;
+	font-size: 15pt;
+}
+.judul{
+	text-align: center;
+	color: #ec2F4B;
+	font-weight: bold;
+	font-size: 18pt;
+}
+.tulisan{
+	text-align: ;
+	color: #eee;
+	font-weight: normal;
+}
+

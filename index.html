@@ -1,0 +1,24 @@
+<html> 
+    <head> 
+        <title>Latihan Digitalent</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head> 
+    <body>
+	    <div class="perhitungan">
+		    <h2 class="judul">PROGRAM <br> MENGHITUNG CICILAN</h2> 
+		    <form name="formIndex" action="calculate.php" method="post" onsubmit="return validateForm()">
+			    <label class="tulisan">Nominal Pinjaman (Rupiah) :</label>
+			    <input type="text" name="nominal"  class="bil"/> 
+			    <p>
+			    <label class="tulisan">Lama Pinjaman (Bulan) :</label>
+			    <input type="text" name ="waktu" class="bil"/> 
+			    <p>
+			    <center>
+			    <input type="submit" name="submit" value="Submit" class="tombol">   
+			    <a class="tombol reset" href="index.html" style="text-decoration:none" 
+			    onclick = "return confirm('Apakah anda yakin akan menghapus seluruh data?');"> Reset </a>
+		    </form>
+	    </div>
+	</body> 
+</html>
